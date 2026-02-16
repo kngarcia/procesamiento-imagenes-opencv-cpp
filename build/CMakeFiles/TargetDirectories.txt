@@ -1,0 +1,8 @@
+/home/keni_garcia/Documents/PI/taller1/build/CMakeFiles/ej1_rgb_hsv.dir
+/home/keni_garcia/Documents/PI/taller1/build/CMakeFiles/ej2_saturacion.dir
+/home/keni_garcia/Documents/PI/taller1/build/CMakeFiles/ej3_kmeans.dir
+/home/keni_garcia/Documents/PI/taller1/build/CMakeFiles/ej4_gray_world.dir
+/home/keni_garcia/Documents/PI/taller1/build/CMakeFiles/ej6_gamma.dir
+/home/keni_garcia/Documents/PI/taller1/build/CMakeFiles/ej7_vignette.dir
+/home/keni_garcia/Documents/PI/taller1/build/CMakeFiles/edit_cache.dir
+/home/keni_garcia/Documents/PI/taller1/build/CMakeFiles/rebuild_cache.dir
