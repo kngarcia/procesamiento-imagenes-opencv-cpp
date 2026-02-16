@@ -42,18 +42,6 @@ Cada ejercicio se encuentra organizado de forma independiente y aborda un concep
 - Aplicación de un factor de oscurecimiento dependiente de la distancia.
 
 ---
-## 🗂️ Estructura del proyecto
-
-├── CMakeLists.txt
-├── README.md
-├── imagen.jpeg
-├── ejercicio1_rgb_hsv.cpp
-├── ejercicio2_saturacion.cpp
-├── ejercicio3_kmeans.cpp
-├── ejercicio4_gray_world.cpp
-├── ejercicio6_gamma.cpp
-└── ejercicio7_vignette.cpp
-
 
 Cada archivo `.cpp` contiene:
 - La implementación del ejercicio
