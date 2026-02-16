@@ -42,6 +42,41 @@ Cada ejercicio se encuentra organizado de forma independiente y aborda un concep
 - Aplicación de un factor de oscurecimiento dependiente de la distancia.
 
 ---
-
 ## 🗂️ Estructura del proyecto
 
+├── CMakeLists.txt
+├── README.md
+├── imagen.jpeg
+├── ejercicio1_rgb_hsv.cpp
+├── ejercicio2_saturacion.cpp
+├── ejercicio3_kmeans.cpp
+├── ejercicio4_gray_world.cpp
+├── ejercicio6_gamma.cpp
+└── ejercicio7_vignette.cpp
+
+
+Cada archivo `.cpp` contiene:
+- La implementación del ejercicio
+- Comentarios explicativos paso a paso
+- Un `main()` independiente para facilitar pruebas y depuración
+
+---
+
+## ⚙️ Requisitos
+
+- C++17 o superior
+- OpenCV 4.x
+- CMake
+- Sistema operativo Linux / Windows
+
+---
+
+## 🔧 Compilación
+
+Desde la raíz del proyecto:
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
