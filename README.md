@@ -67,7 +67,7 @@ mkdir build
 cd build
 cmake ..
 make
-``
+```
 
 # Motion Analysis with OpenCV (C++)
 
