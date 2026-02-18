@@ -1,0 +1,5 @@
+/home/keni_garcia/Documents/PI/taller1/ejercicio_clase_feb16/build/CMakeFiles/frame_difference.dir
+/home/keni_garcia/Documents/PI/taller1/ejercicio_clase_feb16/build/CMakeFiles/running_average.dir
+/home/keni_garcia/Documents/PI/taller1/ejercicio_clase_feb16/build/CMakeFiles/background_subtraction.dir
+/home/keni_garcia/Documents/PI/taller1/ejercicio_clase_feb16/build/CMakeFiles/edit_cache.dir
+/home/keni_garcia/Documents/PI/taller1/ejercicio_clase_feb16/build/CMakeFiles/rebuild_cache.dir
