@@ -68,3 +68,62 @@ mkdir build
 cd build
 cmake ..
 make
+
+# Motion Analysis with OpenCV (C++)
+
+Este repositorio contiene implementaciones básicas de análisis de movimiento
+utilizando OpenCV y C++, desarrolladas con fines académicos y educativos.
+
+Las implementaciones están hechas **desde cero**, usando bucles explícitos
+para entender el procesamiento píxel a píxel.
+
+---
+
+## 📌 Contenido
+
+### 1. Frame Difference
+Archivo: `frame_difference.cpp`
+
+- Compara el frame actual con el frame anterior
+- Detecta cambios instantáneos
+- No mantiene un modelo de fondo
+- Muy sensible al ruido y a cambios de iluminación
+
+---
+
+### 2. Running Average
+Archivo: `running_average.cpp`
+
+- Construye un modelo de fondo dinámico
+- Usa promedio exponencial con un factor `alpha`
+- No detecta movimiento por sí solo
+- Se adapta progresivamente a la escena
+
+---
+
+### 3. Background Subtraction (combinado)
+Archivo: `background_subtraction.cpp`
+
+- Combina running average + diferencia + umbral
+- Permite detectar objetos en movimiento
+- Base conceptual de los algoritmos modernos de sustracción de fondo
+
+---
+
+## 🛠️ Requisitos
+
+- C++11 o superior
+- OpenCV 4.x
+- CMake ≥ 3.10
+- Cámara web funcional
+
+---
+
+## ⚙️ Compilación
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+
