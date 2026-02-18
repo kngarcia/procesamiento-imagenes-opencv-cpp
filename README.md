@@ -6,37 +6,37 @@ El objetivo principal es **comprender en profundidad cómo funcionan los algorit
 
 ---
 
-## 📌 Contenido
+## Contenido
 
 Cada ejercicio se encuentra organizado de forma independiente y aborda un concepto fundamental del procesamiento de imágenes:
 
-### 🟢 Ejercicio 1 – Conversión RGB a HSV (manual)
+### Ejercicio 1 – Conversión RGB a HSV (manual)
 - Conversión píxel a píxel de BGR a HSV.
 - Implementación directa de las ecuaciones matemáticas.
 - Adaptación al formato HSV utilizado por OpenCV.
 
-### 🟢 Ejercicio 2 – Modificación manual de la saturación
+### Ejercicio 2 – Modificación manual de la saturación
 - Conversión BGR → HSV manual.
 - Incremento de la componente de saturación.
 - Conversión HSV → BGR manual.
 - Incluye mensajes de depuración para validación de resultados.
 
-### 🟢 Ejercicio 3 – K-Means manual para cuantización de color
+### Ejercicio 3 – K-Means manual para cuantización de color
 - Implementación completa del algoritmo K-Means desde cero.
 - Uso de distancia euclidiana en el espacio RGB.
 - Generación de imagen cuantizada y paleta de colores resultante.
 
-### 🟢 Ejercicio 4 – Balance de blancos (Gray World)
+### Ejercicio 4 – Balance de blancos (Gray World)
 - Cálculo de promedios por canal.
 - Corrección de color basada en la hipótesis de mundo gris.
 - Aplicación de factores de escala por canal.
 
-### 🟢 Ejercicio 6 – Corrección Gamma mediante LUT
+### Ejercicio 6 – Corrección Gamma mediante LUT
 - Construcción manual de una Look-Up Table (LUT).
 - Aplicación de corrección gamma a cada canal.
 - Mejora de brillo y contraste de la imagen.
 
-### 🟢 Ejercicio 7 – Viñeteado (Vignette)
+### Ejercicio 7 – Viñeteado (Vignette)
 - Atenuación progresiva de la imagen hacia los bordes.
 - Cálculo de distancia radial al centro.
 - Aplicación de un factor de oscurecimiento dependiente de la distancia.
@@ -49,8 +49,7 @@ Cada archivo `.cpp` contiene:
 - Un `main()` independiente para facilitar pruebas y depuración
 
 ---
-
-## ⚙️ Requisitos
+## Requisitos
 
 - C++17 o superior
 - OpenCV 4.x
@@ -59,7 +58,7 @@ Cada archivo `.cpp` contiene:
 
 ---
 
-## 🔧 Compilación
+## Compilación
 
 Desde la raíz del proyecto:
 
@@ -68,6 +67,7 @@ mkdir build
 cd build
 cmake ..
 make
+``
 
 # Motion Analysis with OpenCV (C++)
 
@@ -79,7 +79,7 @@ para entender el procesamiento píxel a píxel.
 
 ---
 
-## 📌 Contenido
+## Contenido
 
 ### 1. Frame Difference
 Archivo: `frame_difference.cpp`
@@ -110,7 +110,7 @@ Archivo: `background_subtraction.cpp`
 
 ---
 
-## 🛠️ Requisitos
+## Requisitos
 
 - C++11 o superior
 - OpenCV 4.x
@@ -119,7 +119,7 @@ Archivo: `background_subtraction.cpp`
 
 ---
 
-## ⚙️ Compilación
+## Compilación
 
 ```bash
 mkdir build
